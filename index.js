@@ -1,6 +1,6 @@
 /* jslint node: true */
 
-function hrToPageBreak( plugin, document ) {
+function hrToPageBreak( plugin ) {
 	plugin.onHTML = function( $, cb ) {
 		$( 'hr' ).filter( function() {
 			return ! Object.keys( this.attribs ).length;
