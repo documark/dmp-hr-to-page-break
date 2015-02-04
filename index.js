@@ -1,13 +1,8 @@
-/* jslint node: true */
+module.exports = function hrToPageBreak ($, document, cb) {
+	$('hr').filter(function () {
+		return ! Object.keys(this.attribs).length;
+	}).replaceWith('<div style="page-break-before:always"></div>');
 
-function hrToPageBreak( plugin ) {
-	plugin.onHTML = function( $, cb ) {
-		$( 'hr' ).filter( function() {
-			return ! Object.keys( this.attribs ).length;
-		} ).replaceWith( '<div style="page-break-after:always"></div>' );
+	cb();
+};
 
-		cb();
-	};
-}
-
-module.exports = hrToPageBreak;

@@ -5,7 +5,7 @@
 1. Add plugin to document configuration:
 
         plugins:
-          - hrToPageBreak
+          - documark-hr-to-page-break
 
 2. Add horizontal rules for forced page-breaks:
 
@@ -13,4 +13,7 @@
 	- `hr` in Jade;
 	- `---` in Markdown.
 
+<br/><br/>
+
 Note: An `<hr/>` with attributes will not be replaced.
+
