@@ -13,7 +13,7 @@
 	- `hr` in Jade;
 	- `---` in Markdown.
 
-<br/><br/>
+<br/>
 
 Note: An `<hr/>` with attributes will not be replaced.
 
