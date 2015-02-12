@@ -15,5 +15,4 @@
 
 <br/>
 
-Note: An `<hr/>` with attributes will not be replaced.
-
+__Note:__ An `<hr/>` with attributes will not be replaced.
