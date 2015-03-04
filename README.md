@@ -1,18 +1,5 @@
 # Documark &lt;hr/&gt; &rarr; page-break
 
-### Usage
+> Documark plugin for converting horizontal rules to page breaks.
 
-1. Add plugin to document configuration:
-
-        plugins:
-          - documark-hr-to-page-break
-
-2. Add horizontal rules for forced page-breaks:
-
-	- `<hr/>` in HTML;
-	- `hr` in Jade;
-	- `---` in Markdown.
-
-<br/>
-
-__Note:__ An `<hr/>` with attributes will not be replaced.
+This plugin is deprecated. Use [`dmp-hr-to-page-break`](https://www.npmjs.com/package/dmp-hr-to-page-break) instead!

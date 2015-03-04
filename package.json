@@ -1,11 +1,8 @@
 {
   "name": "documark-hr-to-page-break",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Documark plugin for converting horizontal rules to page breaks.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mauvm/documark-hr-to-page-break.git"
