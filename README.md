@@ -9,8 +9,10 @@
 
 1. Add plugin to document configuration:
 
-        plugins:
-          - dmp-hr-to-page-break
+	```yaml
+	plugins:
+	  - dmp-hr-to-page-break
+	```
 
 2. Add horizontal rules for forced page-breaks:
 
@@ -20,4 +22,4 @@
 
 <br/>
 
-__Note:__ An `<hr/>` with attributes will not be replaced.
+__Note:__ An `<hr/>` element with attributes will not be replaced.
