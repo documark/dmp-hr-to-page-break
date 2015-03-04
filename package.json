@@ -1,11 +1,11 @@
 {
-  "name": "documark-hr-to-page-break",
-  "version": "0.2.1",
+  "name": "dmp-hr-to-page-break",
+  "version": "0.2.2",
   "description": "Documark plugin for converting horizontal rules to page breaks.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mauvm/documark-hr-to-page-break.git"
+    "url": "https://github.com/mauvm/dmp-hr-to-page-break.git"
   },
   "keywords": [
     "documark-plugin",
@@ -20,7 +20,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mauvm/documark-hr-to-page-break/issues"
+    "url": "https://github.com/mauvm/dmp-hr-to-page-break/issues"
   },
-  "homepage": "https://github.com/mauvm/documark-hr-to-page-break"
+  "homepage": "https://github.com/mauvm/dmp-hr-to-page-break"
 }

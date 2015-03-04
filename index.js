@@ -1,7 +1,7 @@
-module.exports = function hrToPageBreak ($, document, cb) {
+module.exports = function dmpHrToPageBreak ($, document, done) {
 	$('hr').filter(function () {
 		return ! Object.keys(this.attribs).length;
 	}).replaceWith('<div style="page-break-before:always"></div>');
 
-	cb();
+	done();
 };
