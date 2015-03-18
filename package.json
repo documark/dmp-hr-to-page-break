@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mauvm/dmp-hr-to-page-break.git"
+    "url": "https://github.com/documark/dmp-hr-to-page-break.git"
   },
   "keywords": [
     "documark-plugin",
@@ -15,12 +15,10 @@
     "page break",
     "new page"
   ],
-  "author": {
-    "name": "Maurits van Mastrigt"
-  },
+  "author": "Maurits van Mastrigt <maurits@nerdieworks.nl>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mauvm/dmp-hr-to-page-break/issues"
+    "url": "https://github.com/documark/dmp-hr-to-page-break/issues"
   },
-  "homepage": "https://github.com/mauvm/dmp-hr-to-page-break"
+  "homepage": "https://github.com/documark/dmp-hr-to-page-break"
 }
